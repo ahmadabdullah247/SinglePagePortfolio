@@ -101,3 +101,7 @@ img {
     border-radius: 100%;
     border: solid 1px;
 }
+
+a {
+    color: #636363;
+}
