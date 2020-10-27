@@ -1,15 +1,24 @@
 {
-  "name": "single-page-portfolio",
+  "name": "singlepageportfolio",
   "version": "1.0.0",
-  "description": "Single page web app for personal portfolio",
+  "description": "Single page portfolio app",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
-  "author": "Ahmad Abdullah Tariq",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahmadabdullah247/SinglePagePortfolio.git"
+  },
+  "author": "Ahmad",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ahmadabdullah247/SinglePagePortfolio/issues"
+  },
+  "homepage": "https://github.com/ahmadabdullah247/SinglePagePortfolio#readme",
   "dependencies": {
-    "ejs": "^2.5.5",
-    "express": "^4.14.0"
+    "ejs": "^3.1.5",
+    "express": "^4.17.1"
   }
 }
